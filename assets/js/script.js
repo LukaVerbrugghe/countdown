@@ -1,5 +1,7 @@
+import {renderTimers} from "./render.js";
+
 function init(){
-  console.log("Initialized javascript");
+  renderTimers([1, 2, 3]);
 }
 
 init();
