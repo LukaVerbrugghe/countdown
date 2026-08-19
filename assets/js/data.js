@@ -1,9 +1,5 @@
 const TIMERS = [
   {
-    name: "Test timer today",
-    date: new Date('8/17/2026')
-  },
-  {
     name: "Christmas",
     date: new Date('12/25/2026')
   },
