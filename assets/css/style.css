@@ -39,8 +39,13 @@ main{
     font-size: 2rem;
     margin-bottom: 0.9rem;
     flex-grow: 1;
+    border-bottom: 0.1rem black solid;
 }
 
 .timer div{
     margin-bottom: 1rem;
+}
+
+.bold{
+    font-weight: bold;
 }
