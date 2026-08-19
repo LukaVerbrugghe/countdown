@@ -7,7 +7,7 @@ function timersToTimeData(timers){
       name: timer.name,
       months: getMonths(timer.date),
       days: getDays(timer.date),
-      hours: getHours()
+      hours: getHours(timer.date)
     };
     timeData.push(timeObject);
   });
@@ -24,7 +24,7 @@ function getDays(date){
 }
 
 function getHours(date){
-  return "NOT YET IMPLEMENTED";
+  return getDays(date) * 24;
 }
 
 export {timersToTimeData};
