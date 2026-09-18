@@ -9,7 +9,7 @@ const TIMERS = [
   },
   {
     name: "Finally seeing my angel <3",
-    date: new Date('1/11/2026')
+    date: new Date('11/1/2026')
   }
 ]
 
